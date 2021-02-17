@@ -1,0 +1,90 @@
+/* Level 1 */
+.ex-1-square{
+    transition: background 2s;
+}
+.ex-1-square:hover{
+    background-color: red;
+}
+
+/* Level 2 */
+.ex-2-square{
+    transition: width 3s;
+}
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* Level 3 */
+.ex-3-square{
+    transition: border-radius 0.5s ease-in-out;
+}
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/* Level 4 */
+.ex-4-square{
+    transition: opacity 1s;
+}
+.ex-4-square:hover{
+    opacity: 0.0;
+}
+
+/* Level 5 */
+.ex-5-square:hover{
+    transform: scale(2);
+    transition-duration: 1s;
+}
+
+/* Level 6 */
+.ex-6-img:hover{
+    filter: grayscale();
+}
+
+/* Level 7 */
+.ex-7-img{
+    transition: filter 2s;
+}
+.ex-7-img:hover{
+    filter: grayscale(.5) sepia(.5);
+}
+
+/* Level 8 */
+.ex-8-img{
+    transition: all 1s;
+}
+.ex-8-img:hover{
+    filter: grayscale(.5) sepia(.5);
+    border-radius: 12px;
+}
+
+/* Level 9 */
+.ex-9-img{
+    transition: all 2s;
+}
+.ex-9-img:hover{
+    filter: grayscale(.5) sepia(.5);
+    border-radius: 12px;
+    transform: scale(1.5) ;
+}
+
+/* Level 10 */
+.ex-10-icon{
+    animation: rotationIcon 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+/* ANIMATIONS */
+
+/* LEVEL 10 */
+@keyframes rotationIcon{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
