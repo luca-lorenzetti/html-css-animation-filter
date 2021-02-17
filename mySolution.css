@@ -31,9 +31,11 @@
 }
 
 /* Level 5 */
+.ex-5-square{
+    transition-duration: 1s;
+}
 .ex-5-square:hover{
     transform: scale(2);
-    transition-duration: 1s;
 }
 
 /* Level 6 */
